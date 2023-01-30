@@ -17,7 +17,7 @@ export default async function handler(
     optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
   });
   const { method } = req;
-  console.log(req.body, 44455555);
+  console.log(req.body, 4445555);
   switch (method) {
     case "GET":
       res.status(200).json({ data: "GET" });
